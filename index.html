@@ -1,117 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Your Name">
-    <title>Portfolio - Senior Machine Learning Engineer</title>
+    <meta name="author" content="Sreosha Mallick">
+    <title>Portfolio - Sreosha Mallick</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Add Favicon (optional) -->
     <link rel="icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header class="header">
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Sreosha Mallick</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="home">
         <div class="container">
             <div class="profile-photo">
-                <img src="assests/sreosha.jpeg" alt="Profile Photo">
+                <img src="assets/sreosha.jpeg" alt="Profile photo of Sreosha Mallick">
             </div>
             <div class="intro">
-                <h2>Hi, I'm Sreosha Mallick</h2>
+                <h1>Hi, I'm Sreosha Mallick</h1>
                 <p>Senior Machine Learning Engineer with a Master's degree in Computer Science and 4+ years of experience specializing in Machine Learning, Python, NLP, NLU, Generative AI, Speech Processing, and Conversational AI.</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
         </div>
     </header>
 
-    <section class="about-me">
+    <section class="about-me" id="about">
         <div class="container">
             <h2>About Me</h2>
             <p>I am a Senior Machine Learning Engineer with an MSc in Computer Science and 4+ years of experience delivering innovative AI solutions. My expertise spans Machine Learning, Deep Learning, NLP, NLU, and Computer Vision, with a focus on building scalable systems using frameworks like TensorFlow, PyTorch, and Keras. I have hands-on experience in developing advanced AI models, including BERT, GPT, and transformers, and have worked on applications such as object detection, image segmentation, and conversational AI. Passionate about Generative AI, I strive to push the boundaries of AI to create impactful, real-world solutions.</p>
         </div>
     </section>
 
-    <section class="skills-container">
-        <h2 class="section-title">Skills and Frameworks</h2>
-        <div class="skills-list">
-          <div class="skill-item">
-            <div class="skill-icon">
-            </div>
-            <h3>Python</h3>
-            <p>OOP concepts & DSA in python along with Statistical Programming</p>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-            </div>
-            <h3>AI/ML</h3>
-            <p>ML Statistical Algorithms, Neural Networks, NLP, NLU, CV and Transformer Architectures, Keras, Tensorflow, BERT, GPT</p>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-            </div>
-            <h3>Probability & Statistics</h3>
-            <p>Linear Algebra, Probality, Statistics, Bayes Theorem, Hidden Markorv Model</p>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-            </div>
-            <h3>Generative AI</h3>
-            <p>Advanced RAG systems, Conversational AI chatbot and Voicebot, Langchain, GPT, Llama, Huggingface, Vector Database</p>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-            </div>
-            <h3>Data Analytics</h3>
-            <p>Data Analytics , Numpy, Pandas, Matplotlib, Sklearn, Plotly, Dash, Data Visualization, Explainable AI </p>
-          </div>
-          <div class="skill-item">
-            <div class="skill-icon">
-            </div>
-            <h3>MLOps</h3>
-            <p>Data Preparation, EDA, Data Preprocessing, Model Training and Finetuning, Model Inference, Model Deployment by enabling Rest API endpoints</p>
-          </div>
-          <!-- Add more skill items as needed -->
-        </div>
-      </section>
-      
-
-    <section class="projects">
+    <section class="skills-container" id="skills">
         <div class="container">
-            <h2>Featured Projects</h2>
-            <div class="project">
-                <h3>Hot Word Automatic Speech Recognition (ASR) System</h3>
-                <p>Built a speech recognition system using deep learning models for waking up once it hears 'Hello' in my voice. The system handles noisy environments effectively.</p>
-                <a href="https://github.com/SreoshaM/Wake-Up-Word-" target="_blank">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Generative AI Voicebot</h3>
-                <p>Developed a conversational AI chatbot using GPT 3.5 Turbo and Elevenlabs that is capable of understanding and responding in natural language.</p>
-                <a href="https://github.com/SreoshaM/Conversational-AI-Sales-Bot" target="_blank">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Recommendation System</h3>
-                <p>Created a content based Movie Recommendation System which showcase different genre movies.</p>
-                <a href="https://github.com/SreoshaM/Movie-Recommendation-System" target="_blank">View Project</a>
+            <h2>Skills and Frameworks</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="skill-icon"><img src="assets/python-icon.png" alt="Python icon"></div>
+                    <h3>Python</h3>
+                    <p>OOP concepts & DSA in Python along with Statistical Programming</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><img src="assets/ai-icon.png" alt="AI/ML icon"></div>
+                    <h3>AI/ML</h3>
+                    <p>ML Statistical Algorithms, Neural Networks, NLP, NLU, CV, Transformer Architectures, Keras, TensorFlow, BERT, GPT</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><img src="assets/stats-icon.png" alt="Statistics icon"></div>
+                    <h3>Probability & Statistics</h3>
+                    <p>Linear Algebra, Probability, Statistics, Bayes Theorem, Hidden Markov Model</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><img src="assets/genai-icon.png" alt="Generative AI icon"></div>
+                    <h3>Generative AI</h3>
+                    <p>Advanced RAG systems, Conversational AI chatbot and Voicebot, LangChain, GPT, Llama, Hugging Face, Vector Database</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><img src="assets/data-icon.png" alt="Data Analytics icon"></div>
+                    <h3>Data Analytics</h3>
+                    <p>Data Analytics, NumPy, Pandas, Matplotlib, Scikit-learn, Plotly, Dash, Data Visualization, Explainable AI</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon"><img src="assets/mlops-icon.png" alt="MLOps icon"></div>
+                    <h3>MLOps</h3>
+                    <p>Data Preparation, EDA, Data Preprocessing, Model Training and Fine-tuning, Model Inference, Model Deployment via REST API</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="contact">
+    <section class="projects" id="projects">
         <div class="container">
-            <h2>Contact </h2>
-        
-            <p>If you would like to collaborate or have any questions, feel free to reach out to me!</p>
-            <br><br>
-            <div class="container"><p></p><a href="mailto:jobsreosha@gmail.com">Email Me</a></div><br>
-            <a href="https://www.linkedin.com/in/sreosha-mallick-she-her-9326b61a1/" target="_blank" class="linkedin-link">Linkedin
-            </a></p></div>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Hot Word Automatic Speech Recognition (ASR) System</h3>
+                    <p>Built a speech recognition system using deep learning models for waking up once it hears 'Hello' in my voice. The system handles noisy environments effectively.</p>
+                    <a href="https://github.com/SreoshaM/Wake-Up-Word-" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Generative AI Voicebot</h3>
+                    <p>Developed a conversational AI chatbot using GPT 3.5 Turbo and ElevenLabs that is capable of understanding and responding in natural language.</p>
+                    <a href="https://github.com/SreoshaM/Conversational-AI-Sales-Bot" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Recommendation System</h3>
+                    <p>Created a content-based Movie Recommendation System showcasing different genre movies.</p>
+                    <a href="https://github.com/SreoshaM/Movie-Recommendation-System" target="_blank" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you would like to collaborate or have any questions, feel free to reach out!</p>
+            <form class="contact-form" action="mailto:jobsreosha@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sreosha-mallick-she-her-9326b61a1/" target="_blank" class="linkedin-link">LinkedIn</a>
+            </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Sreosha Mallick. All Rights Reserved.</p>
+            <p>&copy; 2025 Sreosha Mallick. All Rights Reserved.</p>
         </div>
     </footer>
-</body>
 
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
 </html>
